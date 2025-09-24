@@ -1,0 +1,64 @@
+[
+  {
+    "id": "p001",
+    "name": "Control PS5",
+    "price": 59990,
+    "salePrice": 49990,
+    "stock": 12,
+  "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=400&q=80",
+    "category": "PlayStation",
+    "description": "Control inalámbrico DualSense para PlayStation 5, color blanco. Vibración háptica y gatillos adaptativos.",
+    "featured": true
+  },
+  {
+    "id": "p002",
+    "name": "Xbox Series X",
+    "price": 599990,
+    "stock": 5,
+  "image": "https://images.unsplash.com/photo-1587202372775-98973c0c8a0e?auto=format&fit=crop&w=400&q=80",
+    "category": "Xbox",
+    "description": "Consola Xbox Series X 1TB, 4K gaming, ultra rápida, compatible con generaciones anteriores.",
+    "featured": true
+  },
+  {
+    "id": "p003",
+    "name": "Nintendo Switch OLED",
+    "price": 389990,
+    "stock": 8,
+  "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "category": "Nintendo",
+    "description": "Nintendo Switch OLED, pantalla de 7'', modo portátil y dock, color blanco.",
+    "featured": true
+  },
+  {
+    "id": "p004",
+    "name": "PC Gamer RTX 4060",
+    "price": 1299990,
+    "stock": 3,
+  "image": "https://images.unsplash.com/photo-1515168833906-d2a3b82b3029?auto=format&fit=crop&w=400&q=80",
+    "category": "PC",
+    "description": "PC Gamer con Intel i5, 16GB RAM, SSD 1TB, RTX 4060, Windows 11.",
+    "featured": true
+  },
+  {
+    "id": "p005",
+    "name": "Headset HyperX Cloud II",
+    "price": 79990,
+    "salePrice": 69990,
+    "stock": 10,
+  "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80",
+    "category": "Accesorios",
+    "description": "Headset gamer HyperX Cloud II, sonido envolvente 7.1, micrófono desmontable.",
+    "featured": false
+  },
+  {
+    "id": "p006",
+    "name": "Teclado Mecánico Redragon",
+    "price": 49990,
+    "stock": 0,
+  "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80",
+    "category": "Accesorios",
+    "description": "Teclado mecánico Redragon K552, switches rojos, retroiluminado RGB compacto.",
+    "featured": false
+  }
+]

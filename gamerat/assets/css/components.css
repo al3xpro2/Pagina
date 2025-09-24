@@ -1,0 +1,204 @@
+/* LOGIN & REGISTER FORM STYLES */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #181a20;
+}
+.section {
+  background: #23272f;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  padding: 2.5rem 2rem;
+  margin: 0;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.2rem;
+}
+.form-group label {
+  color: #bfc9d4;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.form-group input {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 12px;
+  background: #23272f;
+  color: #e3e6ee;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+.form-group input:focus {
+  box-shadow: 0 0 0 2px #4f8cff;
+}
+.btn-accent {
+  border-radius: 14px !important;
+}
+/* components.css - Componentes visuales GAMERAT */
+
+/* Botones */
+.btn {
+  display: inline-block;
+  padding: 0.75em 2em;
+  border-radius: 2em;
+  font-weight: 700;
+  font-size: 1rem;
+  background: var(--g-blue);
+  color: var(--g-white);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(31,111,255,0.10);
+}
+
+.btn-accent {
+  background: var(--g-accent);
+  color: var(--g-blue-dark);
+}
+
+.btn:hover, .btn:focus {
+  background: var(--g-blue-light);
+  color: var(--g-blue-dark);
+}
+
+.btn-accent:hover, .btn-accent:focus {
+  background: var(--g-blue);
+  color: var(--g-white);
+}
+
+/* Cards */
+.card {
+  background: var(--g-gray-dark);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 16px rgba(31,111,255,0.10);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.card:hover, .card:focus-within {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 8px 32px rgba(31,111,255,0.18);
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1.2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--g-blue-light);
+  margin-bottom: 0.5rem;
+}
+
+.card-desc {
+  color: var(--g-gray);
+  font-size: 0.98rem;
+  margin-bottom: 1rem;
+}
+
+.card-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--g-accent);
+  margin-bottom: 1rem;
+}
+
+.card-cta {
+  margin-top: auto;
+}
+
+/* Beneficios */
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.benefit {
+  background: var(--g-blue-dark);
+  color: var(--g-white);
+  border-radius: 1rem;
+  padding: 1.2rem 1.5rem;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(11,30,58,0.10);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* FAQ */
+.faq-list {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.faq-q {
+  font-weight: 600;
+  color: var(--g-blue);
+  margin-bottom: 0.3rem;
+}
+
+.faq-a {
+  color: var(--g-gray);
+  font-size: 0.98rem;
+}
+
+/* Contacto CTA */
+.contact-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.contact-btns {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.contact-btn {
+  padding: 0.7em 1.5em;
+  border-radius: 2em;
+  font-weight: 600;
+  background: var(--g-accent);
+  color: var(--g-blue-dark);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contact-btn:hover, .contact-btn:focus {
+  background: var(--g-blue);
+  color: var(--g-white);
+}
+
+/* ...otros componentes... */

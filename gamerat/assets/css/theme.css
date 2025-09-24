@@ -1,0 +1,48 @@
+nav[aria-label="Navegación principal"] .nav-menu a {
+  color: #fff !important;
+  margin-right: 1.2rem;
+}
+nav[aria-label="Navegación principal"] .nav-menu a:last-child {
+  margin-right: 0;
+}
+nav[aria-label="Navegación principal"] .nav-menu a,
+nav[aria-label="Navegación principal"] .nav-logo,
+nav[aria-label="Navegación principal"] .nav-cart {
+  color: #fff !important;
+}
+/* Tema claro */
+.light body {
+  background: #eaf4fb;
+  color: #181a20;
+}
+.light .section {
+  background: #f7fbff;
+  color: #181a20;
+}
+.light .form-group label,
+.light .form-group input,
+.light .form-label {
+  color: #181a20 !important;
+}
+.light .btn,
+.light .btn-accent {
+  color: #181a20;
+}
+/* theme.css - Variables y paleta GAMERAT */
+
+:root {
+  --g-blue-dark: #0B1E3A;
+  --g-blue: #1F6FFF;
+  --g-blue-light: #66A3FF;
+  --g-gray-dark: #0F172A;
+  --g-gray: #64748B;
+  --g-white: #F1F5F9;
+  --g-accent: #22D3EE;
+}
+
+body {
+  background: var(--g-gray-dark);
+  color: var(--g-white);
+}
+
+/* ...otros temas... */
